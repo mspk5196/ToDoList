@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+}
+
+#div {
+    background-color: aquamarine;
+    width: 98%;
+    height: max-content;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+#input {
+    border-radius: 25px;
+    border-color: black;
+    border-width: 5px;
+    width: 500px;
+    padding: 20px;
+    height: 100px;
+}
+
+#submit {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 2px;
+}
+#resetall {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 2px;
+}
+
+ol {
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+
+}
+
+.lists {
+    padding: 10px;
+    line-height: 20px;
+}
+
+#del_btn {
+    
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 1px;
+}
