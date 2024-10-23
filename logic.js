@@ -1,6 +1,32 @@
 let inputField = document.getElementById("input")
 let displayField = document.getElementById("container")
 let reset = document.getElementById("resetall")
+let save=document.getElementById("submit")
+
+inputField.addEventListener("keydown",function(event){
+    if(event.key==='Enter'){
+        let listItem = document.createElement("li")
+        listItem.style.textAlign = "center"
+
+        let checkbox = document.createElement("input")
+        checkbox.type = "checkbox"
+        checkbox.addEventListener("change", toggleStrikethrough)
+
+        let deleteButton = document.createElement("button")
+        deleteButton.textContent = "Delete"
+        deleteButton.id = "del_btn"
+        deleteButton.addEventListener("click", removeItem)
+
+        listItem.innerHTML = inputField.value + "&nbsp;&nbsp;&nbsp;"
+        listItem.appendChild(checkbox)
+        listItem.appendChild(deleteButton)
+
+        listItem.style.textAlign = "center"
+
+        displayField.append(listItem)
+        inputField.value = ""
+    }
+})
 
 function submit() {
     try {
