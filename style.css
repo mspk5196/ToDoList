@@ -57,3 +57,28 @@ li {
     border-color: bisque;
     border-width: 1px;
 }
+#edit_button {
+    
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 1px;
+}
+#edittask{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 1px;
+}
+#inputedit{
+    visibility:hidden;
+    width: 200px;
+    height: 60px;
+}
+#change {
+    visibility: hidden;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: bisque;
+    border-width: 1px;
+}
