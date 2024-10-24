@@ -53,6 +53,7 @@ inputField.addEventListener("keydown",function(event){
                     listItem.appendChild(deleteButton)
                     listItem.appendChild(editButton)
                     inputedit.style.visibility="hidden"
+                    changeButton.style.visibility="hidden"
                 }
             })
 
