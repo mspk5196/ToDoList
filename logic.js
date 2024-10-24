@@ -139,6 +139,9 @@ function toggleStrikethrough(event) {
 function resetList() {
     displayField.innerHTML = "";
     inputField.value = ""
+    inputedit.textContent=""
+    inputedit.style.visibility="hidden"
+    changeButton.style.visibility="hidden"
 }
 
 // Attach event listener to reset button
